@@ -1,0 +1,164 @@
+<html>
+	<img id="water0" src="water bottle.png" width=48, height=48> </img>
+	<img id="water1" src="water bottle.png" width=48, height=48> </img>
+	<img id="water2" src="water bottle.png" width=48, height=48> </img>
+	<img id="water3" src="water bottle.png" width=48, height=48> </img>
+	<img id="water4" src="water bottle.png" width=48, height=48> </img>
+	<img src="background.png" width=700></img>
+	<style>
+		#water0 {
+			position: absolute;
+			left: 70;
+			top: 100;
+		}
+		#water1 {
+			position: absolute;
+			left: 170;
+			top: 50;
+		}
+		#water2 {
+			position: absolute;
+			left: 500;
+			top: 200;
+		}
+		#water3 {
+			position: absolute;
+			left: 670;
+			top: 140;
+		}
+		#water4 {
+			position: absolute;
+			left: 140;
+			top: 200;
+		}
+	</style>
+	<script>
+		const water0 = document.getElementById("water0");
+		const water1 = document.getElementById("water1");
+		const water2 = document.getElementById("water2");
+		const water3 = document.getElementById("water3");
+		const water4 = document.getElementById("water4");
+		let water0v = 5;
+		let water1v = 5;
+		let water2v = 5;
+		let water3v = 5;
+		let water4v = 5;
+		
+		water0.addEventListener("click", water0f);
+		water1.addEventListener("click", water1f);
+		water2.addEventListener("click", water2f);
+		water3.addEventListener("click", water3f);
+		water4.addEventListener("click", water4f);
+		
+		function water0f(event) {
+			if(water0v > 0) {
+				water0v -= 1;
+				switch(water0v) {
+				case 4:
+					water0.src = "water bottlee1.png"
+					break;
+				case 3:
+					water0.src = "water bottlee2.png"
+					break;
+				case 2:
+					water0.src = "water bottlee3.png"
+					break;
+				case 1:
+					water0.src = "water bottlee4.png"
+					break;
+				case 0:
+					water0.src = "emtry bottle.png"
+					break;
+				}
+			}
+		}
+		function water1f(event) {
+			if(water1v > 0) {
+				water1v -= 1;
+				switch(water1v) {
+				case 4:
+					water1.src = "water bottlee1.png"
+					break;
+				case 3:
+					water1.src = "water bottlee2.png"
+					break;
+				case 2:
+					water1.src = "water bottlee3.png"
+					break;
+				case 1:
+					water1.src = "water bottlee4.png"
+					break;
+				case 0:
+					water1.src = "emtry bottle.png"
+					break;
+				}
+			}
+		}
+		function water2f(event) {
+			if(water2v > 0) {
+				water2v -= 1;
+				switch(water2v) {
+				case 4:
+					water2.src = "water bottlee1.png"
+					break;
+				case 3:
+					water2.src = "water bottlee2.png"
+					break;
+				case 2:
+					water2.src = "water bottlee3.png"
+					break;
+				case 1:
+					water2.src = "water bottlee4.png"
+					break;
+				case 0:
+					water2.src = "emtry bottle.png"
+					break;
+				}
+			}
+		}
+		function water3f(event) {
+			if(water3v > 0) {
+				water3v -= 1;
+				switch(water3v) {
+				case 4:
+					water3.src = "water bottlee1.png"
+					break;
+				case 3:
+					water3.src = "water bottlee2.png"
+					break;
+				case 2:
+					water3.src = "water bottlee3.png"
+					break;
+				case 1:
+					water3.src = "water bottlee4.png"
+					break;
+				case 0:
+					water3.src = "emtry bottle.png"
+					break;
+				}
+			}
+		}
+		function water4f(event) {
+			if(water4v > 0) {
+				water4v -= 1;
+				switch(water4v) {
+				case 4:
+					water4.src = "water bottlee1.png"
+					break;
+				case 3:
+					water4.src = "water bottlee2.png"
+					break;
+				case 2:
+					water4.src = "water bottlee3.png"
+					break;
+				case 1:
+					water4.src = "water bottlee4.png"
+					break;
+				case 0:
+					water4.src = "emtry bottle.png"
+					break;
+				}
+			}
+		}
+	</script>
+</html>
